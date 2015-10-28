@@ -12,7 +12,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     Button btCliente, btLibro;
     EditText etCliente, etLibro;
-
     String btnSelected;
 
     @Override
