@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_menu" tools:context="holi.com.qr.Menu">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Prestamo"
+        android:id="@+id/btnPrestamo"
+        android:layout_marginBottom="115dp"
+        android:layout_above="@+id/btnDevolucion"
+        android:layout_alignRight="@+id/btnDevolucion"
+        android:layout_alignEnd="@+id/btnDevolucion" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Devolucion"
+        android:id="@+id/btnDevolucion"
+        android:layout_marginBottom="178dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
