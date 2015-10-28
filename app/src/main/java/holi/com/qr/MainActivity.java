@@ -14,6 +14,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
     EditText etCliente, etLibro;
     String btnSelected;
 
+    //prueba para ver xD :v
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
